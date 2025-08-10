@@ -17,9 +17,9 @@ The server uses multi-threading to handle multiple client connections simultaneo
 
 ## Project Structure
 src/
- ├── ServerChat.java     # Server entry point
- ├── ClientChat.java     # Client entry point
- └── ClientHandler.java  # Handles individual client connections
+    ServerChat.java     # Server entry point
+    ClientChat.java     # Client entry point
+    ClientHandler.java  # Handles individual client connections
 
 ## How to Run
 
@@ -33,7 +33,7 @@ src/
    java -cp src ClientChat
 
    By default, the client connects to localhost on port 8080.  
-   To connect to a remote server, change the `host` variable in ClientChat.java.
+   To connect to a remote server, change the 'host' variable in ClientChat.java.
 
 4. Start chatting:
    - Type your name when prompted.
