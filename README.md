@@ -15,12 +15,6 @@ The server uses multi-threading to handle multiple client connections simultaneo
 - Multi-threading with Thread and Runnable
 - Java I/O (BufferedReader, PrintWriter)
 
-## Project Structure
-src/
-    ServerChat.java     # Server entry point
-    ClientChat.java     # Client entry point
-    ClientHandler.java  # Handles individual client connections
-
 ## How to Run
 
 1. Compile the project:
